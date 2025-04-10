@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaction avec Dropbox via JavaScript</title>
+  <script type="text/javascript" src="https://unpkg.com/dropbox/dist/Dropbox-sdk.min.js"></script>
+</head>
+
+<body>
+  <h1>Gestion d'un fichier JSON sur Dropbox</h1>
+  <button id="authBtn">Se connecter à Dropbox</button>
+  <button id="readBtn" style="display:none;">Lire le fichier JSON</button>
+  <button id="writeBtn" style="display:none;">Modifier le fichier JSON</button>
+  <button id="addBtn" style="display:none;">Ajouter un element</button>
+  <button id="RemoveBtn" style="display:none;" data-bookmark-id="2">Supprimer un élément</button>
+  <button id="ModifyBtn" style="display:none;">Modifier un élément</button>
+  <button id="ResetBtn" style="display:none;">Réinitialiser le fichier JSON</button>
+  <pre id="output"></pre>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

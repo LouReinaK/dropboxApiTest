@@ -1,6 +1,6 @@
 const APP_KEY = '032pg35p3awd4o9'; // Remplace par ta clé d'application
     let FILE_PATH = "/mon_fichier.json"; // Remplace par le nom de ton fichier json
-    const REDIRECT_URI = 'http://localhost:3000/';  // Remplace par l'URL de redirection configurée
+    const REDIRECT_URI = 'https://loureinak.github.io/dropboxApiTest/';  // Remplace par l'URL de redirection configurée
     let dbx;
     let accessToken;
     let jsonData; // sert de buffer pour le fichier json
